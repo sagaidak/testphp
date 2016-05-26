@@ -9,5 +9,5 @@ return array(
     'host' => 'localhost',
     'dbname' => 'testphp',
     'user' => 'root',
-    'password' => 'Lichnoemnenie14',
+    'password' => '',
 );
