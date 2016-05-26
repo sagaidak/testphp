@@ -1,0 +1,14 @@
+AddDefaultCharset utf-8
+
+#Options +FollowSymlinks
+
+# Prevent Directoy listing
+#Options -Indexes
+
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php [L,QSA]
